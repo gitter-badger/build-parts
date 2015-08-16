@@ -1,0 +1,19 @@
+@import '.meteor/local/build/programs/server/assets/packages/meteoric_ionic-sass/ionic';
+@import 'http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css';
+
+.view-parts-list {
+	display: inline-block;
+	background-color: black;
+	width: 50%;
+	overflow: hidden
+}
+
+.view-parts-info {
+	display: inline-block;
+	background-color: gray;
+	width:50%;
+}
+
+.has-tab-top {
+  top: $bar-height + $tabs-height;
+}
